@@ -9,8 +9,9 @@ const inputIdade = document.querySelector("#idade");
 const resultadoInner = document.querySelector("#resultado");
 btn.addEventListener('click', (event) => {
     event.preventDefault();
-    let reaultado = 66 + (13.8 * parseInt(inputPeso.value)) + (5 * parseInt(inputAltura.value)) - (6.8 * parseInt(inputIdade.value));
-    resultadoInner.innerHTML = reaultado;
+    let resultado = Math.round(66 + (13.8 * parseInt(inputPeso.value)) + (5 * parseInt(inputAltura.value)) - (6.8 * parseInt(inputIdade.value)));
+    const escrita = `Sua taxa de metabolismo basal é de ${resultado} calorias por dia`;
+    resultadoInner.innerHTML = escrita;
 })
 
-console.log(parseInt('13'));
+

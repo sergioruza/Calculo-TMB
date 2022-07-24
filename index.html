@@ -13,9 +13,17 @@
   <img src="https://media.istockphoto.com/photos/calculate-expensive-food-spending-costs-counting-calories-and-weight-picture-id1224541424?k=20&m=1224541424&s=612x612&w=0&h=6HBRvIWb4r_RjyoPn2VJ-E1LkdzUKpHZnkbt5q62mNA=" alt="">
   
   <nav id="menu">
-    <p>O que é?</p>
-    <p>Para que serve?</p>
-    <p>Calcular</p>
+    <a href="#article1">
+      O que é?
+    </a>
+
+    <a href="#article2">
+      Para que serve?
+    </a>
+
+    <a href="#calculadora">
+      Calcular
+    </a>
   </nav>
   
   <img src="https://media.istockphoto.com/photos/calories-counting-diet-food-control-and-weight-loss-concept-calorie-picture-id1259984250?k=20&m=1259984250&s=612x612&w=0&h=UnOA8f5YH56zAKhD9BIYGn7__qnHcx3W9FfWc9gGcVY=" alt="">
@@ -36,21 +44,21 @@
   <img src="https://media.istockphoto.com/photos/counting-counter-application-medical-eating-healthy-diet-concept-picture-id880737446?k=20&m=880737446&s=612x612&w=0&h=CFkiDNTxDZa3gmujnUxrRposzBJLkYeY1ck-CrqkVaQ=" alt="">
   </article>
 
-  <form action="">
+  <form id="calculadora" action="">
     <p>HOMEM</p>
     <label  for="peso">
       Peso em kg:
-      <input class="forms" id="peso" type="number" placeholder="Ex: 85">
+      <input required class="forms" id="peso" type="number" placeholder="Ex: 85">
     </label>
 
     <label for="altura">
       Altura em cm:
-      <input class="forms" id="altura" type="number" name="" placeholder="Ex: 176">
+      <input required class="forms" id="altura" type="number" name="" placeholder="Ex: 176">
     </label>
 
     <label for="idade">
       Idade:
-      <input class="forms" id="idade" type="number" placeholder="Ex: 27">
+      <input required class="forms" id="idade" type="number" placeholder="Ex: 27">
     </label>
 
     <button class="forms" id="btn" type="submit">Calcular</button>
@@ -63,5 +71,4 @@
 </footer>
 <script src="scripts.js"></script>
 </body>
-
 </html>

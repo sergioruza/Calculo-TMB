@@ -14,7 +14,7 @@ header {
   align-items: center;
   font-size: 1.4rem;
   background-color: #9e2a2b;
-  color: white;
+  /* color: white; */
   flex-shrink: 2;
   flex-wrap: wrap;
 
@@ -58,11 +58,13 @@ footer {
 
 h1 {
   text-align: center;
+  font-size: xx-large;
 }
 
 main img {
   width: 50%;
   padding: 1.5em;
+  border-radius: 40px;
 }
 
 form {
@@ -79,7 +81,8 @@ form {
 
 #btn {
   width: 7em;
-  margin: 10px auto;
+  margin: 5px auto;
+  cursor: pointer;
 }
 
 form p {
@@ -87,4 +90,30 @@ form p {
   text-align: center;
   font-weight: bold;
   margin-bottom: 6px;
+}
+
+header a:hover {
+  color: #495057;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 500ms;
+}
+
+#resultado {
+  text-align: center;
+}
+
+main p {
+  font-size: x-large;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+label {
+  padding: 5px;
 }
